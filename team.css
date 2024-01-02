@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.team-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-container .team-profile{
+    width: 48%;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    height: 250px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.team-profile .team-img{
+    width: 20%;
+
+    
+}
+.team-img img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.team-profile .team-desc{
+    width: 40%;
+    margin: 20px;
+}

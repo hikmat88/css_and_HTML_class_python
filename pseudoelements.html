@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements(denoted by ::)</title>
+    <style>
+        /* two colon symbols used pseudo element  */
+        /* one colon pseudo class */
+
+        h1::after{
+            content: '';
+            display: block;
+            clear: both;
+            border: 5px solid green;
+            margin:5px ;
+            width: 30px;
+        }
+        p::first-line{
+            color: red;
+            
+        }
+        p::first-letter{
+            color: green;
+        }
+        /* P::selection{
+            color: yellow;
+        } */
+        li::marker{
+            color:green;
+            content: '?';
+        }
+    </style>
+
+</head>
+<body>
+    <h1>About As</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque consequuntur aut cumque velit. Fugit, aliquam dolore? Debitis, est. Repudiandae laboriosam aut ducimus praesentium laudantium obcaecati beatae libero neque harum dolorum!</p>
+    <ul>
+        <li>pujan</li>
+        <li>rakesh</li>
+        <li>binayak</li>
+    </ul>
+    
+</body>
+</html>

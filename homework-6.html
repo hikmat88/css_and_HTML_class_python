@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-6</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: blueviolet;
+
+        }
+        .container .box{
+            height: 350px;
+            width: 21%;
+            background-color: rgb(24, 19, 19);
+            position: relative;
+        }
+        .box:hover .outer-box{
+            display: block;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+
+            
+        }
+        .outer-box{
+            position: absolute;
+            color: rgb(146, 126, 126);
+            display: none;
+            top: 0;
+            left: 0;
+            right:0;
+            bottom: 0;
+        }
+        .tara{
+            height:150px;
+            background-color: blue;
+            display: flex;
+
+        }
+        .tara img{
+            left: 0;
+            height: 80px;
+            width: 80px;
+        }
+        .tara p{
+            height: 150px;
+            width: 150px;
+            right: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="inner-box">
+                <div class="tara">
+                    <img src="https://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=https%3A%2F%2Fdownloadr2.apkmirror.com%2Fwp-content%2Fuploads%2F2023%2F01%2F09%2F63be51f07ca6d.png&w=96&h=96&q=100" alt="">
+
+                    <p>Lorem, ipsum dolor.</p>
+
+                </div>
+                <div class="text">
+                    <h3>DevOps Certifacation Training Course
+                    </h3>
+                    
+                </div>
+            </div>
+
+            <div class="outer-box">
+                <h1>VIEW DETAILS</h1>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

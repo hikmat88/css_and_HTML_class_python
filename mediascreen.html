@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediascreen</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: yellowgreen;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .container >.box{
+            width: 23%;
+            height: 250px;
+            background-color: aqua;
+            margin: 10px 0px;
+        }
+        @media screen and (max-width:992px) {
+            .container{
+                background-color: green;
+            }
+            .container > .box{
+                width: 48%;
+            }
+            
+        }
+        @media screen and (max-width:560px){
+            .container{
+                background-color: green;
+            }
+            .container .box{
+                width: 98%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
